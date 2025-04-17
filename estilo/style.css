@@ -98,13 +98,14 @@ div.campo {
     border-radius: 10px;
     margin: 5px 0;
     height: 40px;
+    border: 2px solid #5f2c82;
 }
 
 div.campo > input {
     font-size: 1em;
-    width: calc(100% - 44.39px);
+    width: calc(100% - 44.5px);
     height: 100%;
-    transform: translateY(-5px);
+    transform: translateY(-12px);
     background-color: #49a09d;
     border: none;
     border-radius: 10px;
@@ -115,4 +116,5 @@ div.campo > span {
     color: white;
     width: 40px;
     font-size: 2em;
+    padding: 4px;
 }
